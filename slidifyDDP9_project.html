@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DDP9 - Demo project Sequencing report</title>
+  <meta charset="utf-8">
+  <meta name="description" content="DDP9 - Demo project Sequencing report">
+  <meta name="author" content="Gaël Even">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>DDP9 - Demo project Sequencing report</h1>
+    <h2></h2>
+    <p>Gaël Even<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Description of samples table</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Sequencing report interpretation of a multiples samples sequencing experiments.</p>
+
+<p>&lt;!--html_preserve--&gt;<div id="outc3c8a6d2f8f9fd27" class="shiny-html-output"></div>&lt;!--/html_preserve--&gt;&lt;!--html_preserve--&gt;<div id="out5f79f71542c77ac9" class="shiny-text-output"></div>&lt;!--/html_preserve--&gt;</p>
+
+<h2>Graphical Distribution of mean read size</h2>
+
+<p>&lt;!--html_preserve--&gt;<div class="shiny-input-panel"></p>
+
+<div class="shiny-flow-layout">
+<div>
+<div class="form-group shiny-input-container">
+<label class="control-label" for="bw_adjust">Bandwidth adjustment:</label>
+<input class="js-range-slider" id="bw_adjust" data-min="0.2" data-max="2" data-from="1" data-step="0.2" data-grid="true" data-grid-num="9" data-grid-snap="false" data-prettify-separator="," data-keyboard="true" data-keyboard-step="11.1111111111111" data-drag-interval="true" data-data-type="number"/>
+</div>
+
+<p></div>
+</div>
+</div>&lt;!--/html_preserve--&gt;&lt;!--html_preserve--&gt;<div id="outd7d3bb68f39b6ee9" class="shiny-plot-output" style="width: 100% ; height: 400px"></div>&lt;!--/html_preserve--&gt;</p>
+
+<p>##Boxplot visualisation of number of sequences
+&lt;!--html_preserve--&gt;<div class="shiny-input-panel"></p>
+
+<div class="shiny-flow-layout">
+<div>
+<div class="form-group shiny-input-container">
+<label class="control-label" for="n_breaks1">Visualize by</label>
+<div>
+<select id="n_breaks1"><option value="STRAIN" selected>STRAIN</option>
+<option value="STATUS">STATUS</option></select>
+<script type="application/json" data-for="n_breaks1" data-nonempty="">{}</script>
+</div>
+
+<p></div>
+</div>
+</div>
+</div>&lt;!--/html_preserve--&gt;&lt;!--html_preserve--&gt;<div id="outc79c80c0c1bd1132" class="shiny-plot-output" style="width: 100% ; height: 400px"></div>&lt;!--/html_preserve--&gt;</p>
+
+<h2>R summary of data</h2>
+
+<p>&lt;!--html_preserve--&gt;<div class="shiny-input-panel"></p>
+
+<div class="shiny-flow-layout">
+<div>
+<div class="form-group shiny-input-container">
+<label class="control-label" for="n_breaks">Column selection:</label>
+<div>
+<select id="n_breaks"><option value="NUMBER_SEQ" selected>NUMBER_SEQ</option>
+<option value="MEAN_SIZE">MEAN_SIZE</option>
+<option value="STATUS">STATUS</option>
+<option value="STRAIN">STRAIN</option></select>
+<script type="application/json" data-for="n_breaks" data-nonempty="">{}</script>
+</div>
+
+<p></div>
+</div>
+</div>
+</div>&lt;!--/html_preserve--&gt;&lt;!--html_preserve--&gt;<pre id="out377bc8d8074867ac" class="shiny-text-output"></pre>&lt;!--/html_preserve--&gt;
+Conclusions :</p>
+
+<ul>
+<li>Homogeneous Mean read size</li>
+<li>Homegeneous number of sequences for humans, cows and horses</li>
+<li>Lower number of sequence for pigs samples</li>
+<li><strong>we can play with the data!</strong></li>
+</ul>
+
+<p>To learn more, see <a href="https://gdscan-gaeleven.shinyapps.io/rawcode">Interactive Documents</a>.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Description of samples table'>
+         1
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
