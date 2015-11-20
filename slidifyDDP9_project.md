@@ -3,11 +3,11 @@ title: "DDP9 - Demo project Sequencing report"
 author: "Gaël Even"
 runtime: shiny
 output: ioslides_presentation
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
-widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
+#framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+#highlighter : highlight.js  # {highlight.js, prettify, highlight}
+#hitheme     : tomorrow      # 
+#widgets     : []            # {mathjax, quiz, bootstrap}
+#mode        : selfcontained # {standalone, draft}
 ---
 
 
@@ -16,7 +16,7 @@ mode        : selfcontained # {standalone, draft}
 Sequencing report interpretation of a multiples samples sequencing experiments.
 
 
-<!--html_preserve--><div id="outc3c8a6d2f8f9fd27" class="shiny-html-output"></div><!--/html_preserve--><!--html_preserve--><div id="out5f79f71542c77ac9" class="shiny-text-output"></div><!--/html_preserve-->
+<!--html_preserve--><div id="out6485976109de84b6" class="shiny-html-output"></div><!--/html_preserve--><!--html_preserve--><div id="out4addc5d728c68456" class="shiny-text-output"></div><!--/html_preserve-->
 
 
 
@@ -31,7 +31,7 @@ Sequencing report interpretation of a multiples samples sequencing experiments.
 </div>
 </div>
 </div>
-</div><!--/html_preserve--><!--html_preserve--><div id="outd7d3bb68f39b6ee9" class="shiny-plot-output" style="width: 100% ; height: 400px"></div><!--/html_preserve-->
+</div><!--/html_preserve--><!--html_preserve--><div id="outc57150e6bce6dde5" class="shiny-plot-output" style="width: 100% ; height: 400px"></div><!--/html_preserve-->
 
 ##Boxplot visualisation of number of sequences
 <!--html_preserve--><div class="shiny-input-panel">
@@ -47,7 +47,7 @@ Sequencing report interpretation of a multiples samples sequencing experiments.
 </div>
 </div>
 </div>
-</div><!--/html_preserve--><!--html_preserve--><div id="outc79c80c0c1bd1132" class="shiny-plot-output" style="width: 100% ; height: 400px"></div><!--/html_preserve-->
+</div><!--/html_preserve--><!--html_preserve--><div id="out8341423c40d82bb0" class="shiny-plot-output" style="width: 100% ; height: 400px"></div><!--/html_preserve-->
 
 
 
@@ -68,7 +68,7 @@ Sequencing report interpretation of a multiples samples sequencing experiments.
 </div>
 </div>
 </div>
-</div><!--/html_preserve--><!--html_preserve--><pre id="out377bc8d8074867ac" class="shiny-text-output"></pre><!--/html_preserve-->
+</div><!--/html_preserve--><!--html_preserve--><pre id="out9a920c6a8c29fd80" class="shiny-text-output"></pre><!--/html_preserve-->
 Conclusions :
 
 - Homogeneous Mean read size
